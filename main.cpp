@@ -5,8 +5,8 @@
 using namespace std;
 
 const int AtomNum=4;
-const char file1[80]="/Users/alexo/CLionProjects/prj1/1";
-const char file2[80]="/Users/alexo/CLionProjects/prj1/2";
+const char file1[80]="./POSCAR1";
+const char file2[80]="./POSCAR2";
 const float PI=3.1415926;
 
 void codeRotateByZ(double x, double y, double thetaz, double& outx, double& outy);
